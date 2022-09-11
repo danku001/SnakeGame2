@@ -3,6 +3,7 @@
 from Window import *
 from PlayerVsAISnake import *
 from SinglePlayerSnake import *
+from TwoPlayerSnake import *
 
 
 class SnakeMenu(Window):

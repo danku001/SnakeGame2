@@ -5,6 +5,10 @@ Window class that creates a basic window using tkinter
 from tkinter import *
 from tkinter import ttk
 
+#constants
+WIDTH = 100
+HEIGHT = 400
+
 class Window:
 
     #constructor
@@ -22,8 +26,8 @@ class Window:
         #update the window so the dimensions change
         self.root.update()
         self.size = (
-            (self.root.winfo_width()),
-            (self.root.winfo_height())
+            (WIDTH),
+            (HEIGHT)
             )
 
     def toggleFull(self, event):
